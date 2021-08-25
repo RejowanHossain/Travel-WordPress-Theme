@@ -1,0 +1,50 @@
+/*
+Theme: Travel
+Author: Rezwan Hossain
+Version: 1.0
+Description: Travel  WordPress Theme
+Tags: Business, Corporate, Responsive
+Text Domain: travel
+*/
+
+
+/* Comment CSS */
+
+header {
+    margin-top: 30px;
+}
+
+.menu-item a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.scroll-header .nav__menu ul li a:not(.active-link) {
+    color: hsl(var(--hue-color), 8%, 60%);
+}
+
+ul#menu-menu-2 li {
+    margin-bottom: 8px;
+}
+
+ul#menu-menu-2 li a {
+    color: hsl(var(--hue-color), 24%, 35%);
+    font-weight: 400;
+}
+
+li.widget_text {
+    list-style: none;
+}
+
+.textwidget a {
+    margin-right: 8px;
+}
+
+.textwidget a:last-child {
+    margin-right: 0;
+}
+
+.footer__rights {
+    flex-direction: column;
+    justify-content: space-between;
+}
